@@ -2,6 +2,7 @@
 
 Keypad App is a PyQt5-based desktop application that emulates a phone keypad, allowing users to input text and see the corresponding phone keypad numbers on the screen. This tool is designed for those who create pin passwords using specific text and need a quick way to convert text to keypad numbers on their PC.
 
+
 ### Building the Application
 
 To build the application into a standalone executable (.exe) file, you can use PyInstaller. Follow these steps:
@@ -19,7 +20,7 @@ To build the application into a standalone executable (.exe) file, you can use P
 3. **Build the .exe file**:
     Open PowerShell and navigate to the project directory, then run the following command:
     ```powershell
-    pyinstaller --windowed --onefile --add-data "images/*;images" --icon="images/appicon.ico" 
+    pyinstaller --windowed --onefile --add-data "images/*;images" --icon="images/appicon.ico" keypad.py 
     ```
 
 
@@ -33,3 +34,5 @@ To build the application into a standalone executable (.exe) file, you can use P
 
 
 ![Demo Video](media/app.gif)
+
+### [Download the app](https://github.com/Benediximuss/keypad-app/releases/download/v1.0/keypad_build.zip)
