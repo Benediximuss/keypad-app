@@ -17,4 +17,4 @@ pip install PyQt5
 - **Exit**: Press Esc to close the application.
 
 
-![Demo Video](https://raw.githubusercontent.com/Benediximuss/keypad-app/main/media/app.gif)
+![Demo Video](media/app.gif)
